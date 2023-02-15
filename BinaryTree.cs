@@ -50,5 +50,9 @@ namespace BinarySearchTree1
                 this.right.Display();
             }
         }
+        public void getSize()
+        {
+            Console.WriteLine("Size" + " " + (1 + this.leftIdx + this.rightIdx));
+        }
     }
 }
